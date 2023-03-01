@@ -1,0 +1,37 @@
+﻿<Window x:Class="PR3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button  HorizontalAlignment="Center" Margin="0,258,0,0" VerticalAlignment="Top" Height="114" Width="114" Click="Start_Click">
+            <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\1625620568_27-phonoteka-org-p-bronya-samuraya-art-krasivo-31.jpg"></Image>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="156,320,0,0" VerticalAlignment="Top" Height="45" Width="108" Click="Button_Click_6">
+            <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\1651144725_27-phonoteka-org-p-samurai-art-oboi-krasivo-30.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="538,322,0,0" VerticalAlignment="Top" Height="43" Width="106" Click="Button_Click_5">
+             <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\bd0c0881a9e3e8fa002e884e92911211.jpg"></Image>
+        </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="188,217,0,0" VerticalAlignment="Top" Click="Button_Click_3" Height="51">
+        <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\becb8135efbb0d7d4b54709832b7502c.jpeg"></Image>
+               </Button>
+        
+        <Button  HorizontalAlignment="Left" Margin="522,212,0,0" VerticalAlignment="Top" Height="56" Width="122" Click="Button_Click_7">
+            <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\large_5200e276dea99991581239.jpg"></Image>
+        </Button>
+        <Slider x:Name="TrackTime" HorizontalAlignment="Center" Margin="0,389,0,0" VerticalAlignment="Top" Width="489" Height="35" ValueChanged="Slider_ValueChanged"/>
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="101" Width="146" Click="Button_Click_4">
+            <Image Source="C:\Users\Korsun\OneDrive\Рабочий стол\pictures\6df4158cd05598122fcc7a955e263b13.jpeg"></Image>
+        </Button>
+        
+        <Label x:Name="Label1" Content="0:00" HorizontalAlignment="Left" Margin="64,389,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TimeLeft" Content="0:00" HorizontalAlignment="Left" Margin="712,389,0,0" VerticalAlignment="Top" Width="52"/>
+
+    </Grid>
+</Window>
